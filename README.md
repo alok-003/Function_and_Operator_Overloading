@@ -81,12 +81,12 @@ int main() {
 
 ### Addition using Function Overloading
 
-**Start**
+1.**Start**
 
-- **Class Definition**
+2.- **Class Definition**
   - Define a class named `Addition`.
 
-- **Method Definitions**
+3.- **Method Definitions**
   - Define the following methods within the class:
     - **Method 1:** `int sum(int a, int b)`
       - Takes two integer parameters and returns their sum.
@@ -95,7 +95,7 @@ int main() {
     - **Method 3:** `double sum(double d, double e)`
       - Takes two double parameters and returns their sum.
 
-- **Main Function**
+4.- **Main Function**
   - Create an instance of the `Addition` class named `obj`.
   - Call `obj.sum(20, 15);`
     - This calls the first sum method (two integers).
@@ -107,46 +107,47 @@ int main() {
     - This calls the third sum method (two doubles).
     - Output the result.
 
-**End**
+5.**End**
 
 ---
 
 ### Sum and Difference using Operator Overloading
 
-**Start**
+1.**Start**
 
-- **Class Definition**
+2.- **Class Definition**
   - Define a class named `Complex`.
   - Declare private member variables:
     - `int real` (to store the real part)
     - `int imag` (to store the imaginary part)
 
-- **Constructor**
+3.- **Constructor**
   - Implement a constructor `Complex(int r = 0, int i = 0)`:
     - Initialize `real` with `r` and `imag` with `i`.
 
-- **Operator Overloading for Addition**
+4.- **Operator Overloading for Addition**
   - Define a member function `Complex operator+(Complex const& obj)`:
     - Create a new `Complex` object `res`.
     - Set `res.real` to the sum of the real parts of the current object and `obj`.
     - Set `res.imag` to the sum of the imag parts of the current object and `obj`.
     - Return `res`.
 
-- **Operator Overloading for Subtraction**
+5.- **Operator Overloading for Subtraction**
   - Define a member function `Complex operator-(Complex const& obj)`:
     - Create a new `Complex` object `res`.
     - Set `res.real` to the difference of the real parts of the current object and `obj`.
     - Set `res.imag` to the difference of the imag parts of the current object and `obj`.
     - Return `res`.
 
-- **Print Method**
+6.- **Print Method**
   - Define a method `void print()`:
     - Output the complex number in the format `"real + i imag"`.
 
-- **Main Function**
+7.- **Main Function**
   - Create two `Complex` objects `c1(10, 5)` and `c2(2, 4)`.
   - Create a new `Complex` object `c3` and assign it the result of `c1 + c2`.
   - Create another `Complex` object `c4` and assign it the result of `c1 - c2`.
   - Output the sum by calling `c3.print()`.
   - Output the difference by calling `c4.print()`.
-
+  
+8.- **End**
